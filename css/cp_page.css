@@ -35,7 +35,7 @@
 
   min-width: 1200px;
   position: relative;
-  top:-80px;
+  padding-bottom: 80px;
   font-family: 'Nanum Gothic', sans-serif;
   background-color: #151515;
 }
