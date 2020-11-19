@@ -1,0 +1,227 @@
+#login_page_wrap{
+
+}
+
+.login_page_inner{
+  display: flex;
+  justify-content: center;
+  width:1200px;
+  margin: 70px auto 80px;
+}
+
+.login_page_inner .login_box_wrap{
+    width: 580px;
+}
+
+.login_page_inner h2{
+  font-size: 36px;
+  font-family: 'CorporateS-Bold', sans-serif;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.login_page_inner .input_box{
+  position: relative;
+  width: 580px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.input_box input{
+  width:100%;
+  height: 100%;
+  padding-left: 20px;
+  border: 1px solid #ebebeb;
+  outline: none;
+}
+
+.input_box input:focus{
+  background-color: #f7f7f7;
+}
+
+.input_box input::placeholder{
+  font-size: 14px;
+}
+
+.input_box button{
+  position: absolute;
+  top:0;
+  right:0;
+  width:60px;
+  height:60px;
+  border: none;
+  outline: none;
+  background: url('../image/common/ico_eyes.png');
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: 20px;
+}
+
+.input_box button span{
+  content:'';
+  display: none;
+  width:1px;
+  height:50%;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background:#000000;
+}
+
+.remember_box{
+   position: relative;
+}
+
+.remember_box input{
+  display: none;
+}
+
+.remember_box label{
+  display: inline-block;
+  position: relative;
+  font-size: 12px;
+  margin: 5px 0 25px;
+  padding-left: 25px;
+}
+
+.remember_box label:after{
+  content:'';
+  position: absolute;
+  top:calc(50% - 10px);
+  left:0;
+  width:16px;
+  height:16px;
+  border: 1px solid #ebebeb;
+}
+
+.remember_box input:checked + label:after{
+  background-image: url('../image/common/ico_chk.png');
+  background-position: bottom;
+}
+
+/* .remeber_box span.check{
+  display: inline-block;
+  position: absolute;
+  top:calc(50% - 10px);
+  left:0;
+  width:16px;
+  height:16px;
+  border: 1px solid #ebebeb;
+  background-image: url('../image/common/ico_chk.png');
+  background-position: bottom;
+} */
+
+
+.login_btn{
+  width: 580px;
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+.login_btn button{
+  width:100%;
+  height:100%;
+  font-size: 14px;
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.member_service{
+  width:100%;
+
+}
+
+.member_service ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.member_service ul li{
+  position: relative;
+  margin: 0 20px;
+}
+
+.member_service ul li:nth-of-type(2):before{
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top:calc(50% - 7.5px);
+  left:-20px;
+  width:1px;
+  height:15px;
+  background-color: #ebebeb;
+}
+
+.member_service ul li:nth-of-type(2):after{
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top:calc(50% - 7.5px);
+  right:-20px;
+  width:1px;
+  height:15px;
+  background-color: #ebebeb;
+}
+
+.member_service ul li a{
+    color:#999999;
+}
+
+.sns_box{
+  width: 580px;
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #ebebeb;
+}
+
+.sns_box button{
+  width:100%;
+  height: 60px;
+  font-size: 14px;
+  color:#ffffff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  outline: none;
+}
+
+.sns_box .google_btn{
+ background-color:#ee4f4d;
+ background-image: url('../image/common/sns_google.gif');
+ background-repeat: no-repeat;
+ background-position: 20px center;
+}
+
+.sns_box .naver_btn{
+ background-color:#1ec800;
+ background-image: url('../image/common/sns_naver.gif');
+ background-repeat: no-repeat;
+ background-position: 20px center;
+}
+
+.sns_box .kakao_btn{
+ background-color:#fae312;
+ background-image: url('../image/common/sns_kakao.gif');
+ background-repeat: no-repeat;
+ background-position: 20px center;
+}
+
+.nomember_box{
+ width: 580px;
+ margin-top: 60px;
+}
+
+.nomember_box .non_member_btn{
+  width:100%;
+  height: 60px;
+  font-size: 14px;
+  color:#000000;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin-top: 10px;
+  outline: none;
+}

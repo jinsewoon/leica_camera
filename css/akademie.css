@@ -1,0 +1,237 @@
+
+.upper_menu{
+  position: absolute;
+  height: 40px;
+  top:0;
+  left:0;
+  right:0;
+  z-index: 10;
+}
+
+.lower_menu{
+ position: absolute;
+ top:41px;
+ left:0;
+ right:0;
+ z-index: 10;
+ background-color: rgba(0,0,0,0);
+ border-bottom:1px solid rgba(48,48,48,0);
+ box-sizing: border-box;
+ border: none;
+ transition:  0.5s;
+}
+
+.lower_menu:hover{
+  background-color: rgba(0,0,0,1);
+  border-bottom:1px solid rgba(48,48,48,1);
+}
+
+.lower_menu .lower_wrap .gnb .lower_drop{
+  background:#000000;
+  top:82px;
+}
+
+/*//select*/
+
+select{
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  font-family: 'Corporate S Bold';
+  color:#999999;
+  border:none;
+  outline: none;
+  padding-right: 32px;
+  background:none;
+  -webkit-appearance: none; /* 네이티브 외형 감추기 */
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url('../image/common/arr_down_gr_10x6.png');
+  background-repeat: no-repeat;
+  background-position: 65px;
+}
+
+/*select//*/
+
+#akademie_wrap{
+  min-width: 1200px;
+  position: relative;
+  font-family: 'Nanum Gothic', sans-serif;
+  background-color: #151515;
+}
+
+.akademie_title{
+  width:1200px;
+  min-width: 1200px;
+  margin: 0 auto;
+  color:white;
+}
+
+.akademie_title h2{
+  padding: 195px 0 75px 0;
+  font-size: 40px;
+  font-family: 'Corporate S Bold';
+}
+
+.akademie_title .select_date_box{
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.akademie_title .select_date_box:after{
+    content:'';
+    position: absolute;
+    display: inline-block;
+    top:50%;
+    width:calc(100% - 90px);
+    height:1px;
+    background:#999999;
+}
+
+/*//akademie_content*/
+
+
+.akademie_content .title_banner{
+  position: relative;
+  margin-bottom: 90px;
+}
+
+.akademie_content .title_banner img{
+  width:100%;
+  display: block;
+}
+
+.akademie_content .title_banner h2{
+  position: absolute;
+  bottom: 0;
+  left:50%;
+  transform: translate(-50%,0);
+  font-size: 70px;
+  font-weight: 700;
+  color:#ffffff;
+  line-height: 90px;
+  text-align: center;
+}
+
+.akademie_content .title_banner h2 i.dash{
+  display: inline-block;
+  width:95px;
+  height:5px;
+  background: #ffffff;
+  margin: 20px 0px 20px;
+}
+
+.akademie_content .content_text_box{
+  display: flex;
+  width:1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 180px;
+}
+
+.akademie_content .content_text_box > div{
+  display: flex;
+  justify-content: center;
+  width:50%;
+  font-size: 30px;
+  color:white;
+}
+
+.akademie_content .content_text_box .right_text{
+  color:#666666;
+}
+
+/*akademie_content//*/
+
+/*//timetable*/
+
+.akademie_content .timetable{
+  width:1200px;
+  min-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.akademie_content .timetable .option .op_bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.timetable .option .op_bar p{
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Corporate S Bold';
+  color:#999999;
+}
+
+.timetable ul{
+  margin-bottom: 240px;
+}
+
+.timetable ul li{
+  position: relative;
+  padding: 30px 0;
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+  border-collapse: collapse;
+  box-sizing: border-box;
+}
+
+.timetable ul li a{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.timetable .timetable_info{
+  display: flex;
+  align-items: flex-start;
+}
+
+.timetable .timetable_info .status{
+  float: left;
+  font-size: 16px;
+  color:red;
+  margin-top: 20px;
+}
+
+.timetable .timetable_info .info_text{
+  padding-left: 55px;
+}
+
+.timetable .timetable_info .info_text h2{
+  font-size: 24px;
+  color:#666666;
+}
+
+.timetable .timetable_info div{
+  margin-top: 10px;
+}
+
+.timetable .timetable_info div dl > *{
+  display: inline-block;
+  font-size: 14px;
+  color:#666666;
+}
+
+.timetable .hover_img{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height:50%;
+}
+
+.timetable .hover_img img{
+  position: absolute;
+  top:-50%;
+  right:5%;
+  width: 50%;
+  display: none;
+  z-index: 20;
+}
+
+
+/*timetable//*/

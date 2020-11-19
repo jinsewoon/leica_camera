@@ -1,0 +1,126 @@
+#service_page_wrap{
+
+}
+
+.service_page_title{
+ background-color: #151515;
+}
+
+.service_page_title .service_page_title_inner{
+  width:1200px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.service_page_title h2{
+  font-size: 40px;
+  font-family:  'Corporate S Bold' ,sans-serif;
+  color:#ffffff;
+}
+
+.service_page_content_wrap{
+  width:1200px;
+
+  overflow: hidden;
+  margin: 70px auto 80px;
+  font-size: 14px;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.service_page_content_wrap .service_page_lnb{
+  width:270px;
+  float: left;
+
+}
+/*//service_page_lnb*/
+.service_page_lnb h2{
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #000000;
+}
+
+.service_page_lnb ul{
+
+}
+
+.service_page_lnb ul li{
+  margin-top: 10px;
+}
+
+.service_page_lnb > ul > li > a{
+  color:#999999;
+}
+
+.service_page_lnb > ul > li > a.on{
+  font-weight: 700;
+  color:#000000;
+ }
+
+/*service_page_lnb//*/
+
+/*//service_page_content*/
+.service_page_content_wrap .service_page_content{
+  width:calc(100% - 310px);
+
+  float: right;
+  margin-left: 40px;
+}
+
+.service_page_content ul li h2{
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+  border-bottom: 5px solid #f4f4f4;
+}
+
+.service_page_content ul li ul li{
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.service_page_content ul li ul li p{
+  cursor: pointer;
+  display: inline-block;
+}
+
+.service_page_content ul li ul li .list_title{
+  padding: 30px 0;
+}
+
+.service_page_content ul li ul li .list_date{
+  font-size: 12px;
+  color:#999999;
+  padding: 30px 0;
+  float:right;
+}
+
+/*//list_content_box*/
+
+.service_page_content .list_content_box{
+  display: none;
+  width:100%;
+  background: #eeeeee;
+  padding: 30px;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.service_page_content .on{
+  display: block;
+}
+
+.list_content_box:nth-of-type(1){
+  font-size: 15px;
+  border: 30px solid #eeeeee;
+  background:#ffffff;
+}
+.list_content_box img{
+  vertical-align: middle;
+  width:100%;
+}
+
+.list_content_box > p > span{
+  line-height: 26px;
+}
+
+/*list_content_box//*/
+
+/*service_page_content//*/

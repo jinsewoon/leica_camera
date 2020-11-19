@@ -1,0 +1,151 @@
+
+.upper_menu{
+  position: absolute;
+  height: 40px;
+  top:0;
+  left:0;
+  right:0;
+  z-index: 10;
+}
+
+.lower_menu{
+ position: absolute;
+ top:41px;
+ left:0;
+ right:0;
+ z-index: 10;
+ background-color: rgba(0,0,0,0);
+ border-bottom:1px solid rgba(48,48,48,0);
+ box-sizing: border-box;
+ border: none;
+ transition:  0.5s;
+}
+
+.lower_menu:hover{
+  background-color: rgba(0,0,0,1);
+  border-bottom:1px solid rgba(48,48,48,1);
+}
+
+.lower_menu .lower_wrap .gnb .lower_drop{
+  background:#000000;
+  top:82px;
+}
+
+#exhibition_wrap{
+  min-width: 1200px;
+  position: relative;
+  font-family: 'Nanum Gothic', sans-serif;
+  background-color: #151515;
+}
+
+.exhibition_title{
+  width:1200px;
+  margin: 0 auto;
+  color:white;
+}
+
+.exhibition_title h2{
+  padding: 195px 0 75px 0;
+  font-size: 40px;
+  font-family: 'Corporate S Bold';
+}
+
+.exhibition_title .title_info{
+  overflow: hidden;
+  margin-bottom: 35px;
+}
+
+.exhibition_title .title_info .date{
+  float: left;
+
+}
+
+.exhibition_title .title_info .email{
+  float: right;
+}
+
+/*//content_box*/
+
+.content_box{
+  width:100%;
+}
+
+.content_box a{
+  position: relative;
+  display: inline-block;
+  width:100%;
+  height: 100%;
+}
+
+.content_box a img{
+  display: block;
+  width:100%;
+}
+
+.content_text{
+  position: absolute;
+  bottom:0;
+  left:0;
+  background-color: rgba(0,0,0,0.8);
+  padding: 20px;
+}
+
+/*//content_text*/
+
+.img_title{
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  color:white;
+}
+
+.img_title:after{
+  content:'';
+  display: inline-block;
+  width:22px;
+  height: 16px;
+  margin-left: 4px;
+  background-image:url('../image/common/arr_right_rd_22x16.png');
+}
+
+.title_info{
+  font-family: 'Corporate S Bold';
+}
+
+
+.date{
+  font-size: 16px;
+  font-weight: 700;
+  color:white;
+}
+
+.place{
+  position: relative;
+  font-size: 16px;
+  font-weight: 700;
+  color:white;
+}
+
+.place:before{
+  content:'';
+  display: block;
+  width:48px;
+  height:3px;
+  margin: 15px 0;
+  background-color: red;
+
+}
+/*content_text//*/
+
+.content_box ul{
+  overflow: hidden;
+}
+
+.content_box ul li{
+  display: inline-block;
+  width:calc(50% - 0.5%);
+  float: left;
+  padding: 0.25%;
+}
+
+/*content_box//*/

@@ -1,0 +1,162 @@
+/*//배너 슬라이드*/
+
+.swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+.swiper-slide {
+  font-size: 16px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide a{
+  position: absolute;
+  bottom:30%;
+  left:5%;
+  line-height: 30px;
+  font-size: 30px;
+  font-weight: bolder;
+  color:#ffffff;
+}
+
+.swiper-slide a:after{
+  content:'';
+  position: absolute;
+  display: inline-block;
+  width:22px;
+  height: 16px;
+  bottom:8px;
+  margin-left: 10px;
+  background-image: url('../../image/common/arr_right_rd_22x16.png');
+  z-index: 10;
+}
+
+.swiper-slide img{
+  display: block;
+  width:100%;
+}
+/*//swiper-pagination*/
+.swiper-pagination{
+  position: relative;
+  background: #ffffff;
+  width: 100%;
+  margin: 40px auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets{
+  bottom:0;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+  margin: 0;
+}
+
+.swiper-pagination .swiper-pagination-bullet{
+  position: relative;
+  width:200px;
+  height:100%;
+  font-weight: 700;
+  color:#000000;
+  background: white;
+  border-radius: 0;
+  border-bottom:3px solid #dddddd;
+  opacity: 1;
+  padding:0 50px;
+  text-align: left;
+}
+
+
+
+.swiper-pagination .swiper-pagination-bullet:nth-of-type(even):before{
+  content:'';
+  position: absolute;
+  top:0px;
+  left:0;
+  width:2px;
+  height: 40px;
+  background: #dddddd;
+}
+
+.swiper-pagination .swiper-pagination-bullet:nth-of-type(even):after{
+  content:'';
+  position: absolute;
+  top:0px;
+  right:0;
+  width:2px;
+  height: 40px;
+  background: #dddddd;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active{
+  width:200px;
+  height:100%;
+  font-weight: 700;
+  color:red;
+  border-bottom: 3px solid red;
+  border-radius: 0;
+  background: white;
+  padding:0 50px;
+  text-align: left;
+}
+
+/*swiper-pagination//*/
+
+/*배너 슬라이드//*/
+
+
+/*//섹션02 슬라이드*/
+#section02 .swiper-sc02{
+ position: relative;
+ height: 100%;
+ padding: 30px 0;
+ display: flex;
+}
+
+#section02 .swiper-sc02:before{
+  content:'';
+  position: absolute;
+  top:0;
+  width: 100vw;
+  height: 50%;
+  background: #f1f3f4;
+}
+
+.swiper-sc02 .swiper-wrapper{
+  display: flex;
+  z-index: 10;
+}
+
+.swiper-sc02 .swiper-wrapper .swiper-slide{
+  position: relative;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+}
+
+.swiper-sc02 .swiper-wrapper img{
+  width: 100%;
+}
+
+.swiper-sc02 .swiper-wrapper .img_info{
+ position: absolute;
+ text-align: left;
+ color:#000000;
+ top:30px;
+}
+
+/*섹션02 슬라이드//*/

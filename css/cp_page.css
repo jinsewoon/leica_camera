@@ -1,0 +1,148 @@
+
+.upper_menu{
+  position: absolute;
+  height: 40px;
+  top:0;
+  left:0;
+  right:0;
+  z-index: 10;
+}
+
+.lower_menu{
+ position: absolute;
+ top:41px;
+ left:0;
+ right:0;
+ z-index: 10;
+ background-color: rgba(0,0,0,0);
+ border-bottom:1px solid rgba(48,48,48,0);
+ box-sizing: border-box;
+ border: none;
+ transition:  0.5s;
+}
+
+.lower_menu:hover{
+  background-color: rgba(0,0,0,1);
+  border-bottom:1px solid rgba(48,48,48,1);
+}
+
+.lower_menu .lower_wrap .gnb .lower_drop{
+  background:#000000;
+  top:82px;
+}
+
+#cp_page_content_wrap{
+
+  min-width: 1200px;
+  position: relative;
+  top:-80px;
+  font-family: 'Nanum Gothic', sans-serif;
+  background-color: #151515;
+}
+
+#cp_page_content{
+  width:1200px;
+  margin: 0 auto;
+}
+
+.cp_page_img{
+
+  height:524px;
+  background-image: url('../image/img/cp_main.png');
+  background-repeat: no-repeat;
+}
+
+.content_inner{
+  color:#ffffff;
+}
+
+.content_inner > div{
+
+}
+
+.content_inner .cp_info_text{
+  position: relative;
+  top:-170px;
+  text-align: center;
+}
+.cp_info_text p{
+  margin-bottom: 30px;
+}
+.cp_info_text h2{
+  font-size: 58px;
+  line-height: 72px;
+}
+
+.cp_info_text .cp_sub_text{
+  font-size: 24px;
+  margin-top: 90px;
+  color:#666666;
+  overflow: hidden;
+}
+
+
+.cp_info_top > div{
+  float: left;
+}
+
+.cp_info_top img{
+  display: block; /*img 공백 없애기*/
+}
+
+
+.cp_info_top .cp_info_top_right{
+  margin-left: 40px;
+}
+
+.cp_info_top .cp_article{
+  min-height: 320px;
+  margin-top: 35px;
+  padding: 0 0 0 50px;
+  border-bottom: 1px solid #4c4c4c;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.cp_article .cp_sub_contnet{
+  color:#666666;
+  margin-top: 30px;
+}
+
+.cp_info_mid{
+  display: inline-block;
+  margin: 100px 0;
+}
+
+.cp_info_mid .cp_article{
+  margin-top: 90px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 34px;
+  color:#666666;
+}
+
+.cp_info_bottom{
+  display: flex;
+  align-items: flex-end;
+}
+
+.cp_info_bottom > *{
+  width:580px;
+
+
+}
+
+.cp_info_bottom img{
+
+}
+
+.cp_info_bottom .cp_article{
+  margin-left: 40px;
+  padding: 0 0 30px 50px;
+  border-bottom: 1px solid #4c4c4c;
+}
+
+.cp_info_bottom .cp_article .cp_sub_contnet{
+  color:#ffffff;
+  line-height: 28px;
+}

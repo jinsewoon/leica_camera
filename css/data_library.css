@@ -1,0 +1,102 @@
+
+#date_library_wrap{
+  min-width: 1200px;
+  height:100%;
+  position: relative;
+  color:white;
+    background: #151515;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.date_library_wrap_inner{
+
+}
+
+.date_library_main{
+  width:1200px;
+  margin: 0 auto;
+}
+
+.date_library_main .date_library_title{
+
+}
+
+.date_library_main .date_library_title h2{
+  font-size:40px;
+  font-family: 'Corporate S Bold';
+  padding:30px 0;
+}
+
+.date_library_main .date_library_content h2{
+  font-size: 26px;
+}
+
+.date_library_content ul{
+  margin: 60px 0 90px;
+}
+
+.date_library_content li{
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.date_library_content li img{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.date_library_content li p{
+  display: inline-block;
+  color:#000000;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 50px;
+}
+
+.date_library_content li a{
+  position: absolute;
+  color:red;
+  top:50%;
+  right:0;
+  transform: translateY(-80%);
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 50px;
+}
+
+.date_library_content li a:after{
+  content:'';
+  position: absolute;
+  display: inline-block;
+  top:30px;
+  left:50%;
+  transform: translateX(-50%);
+  width:16px;
+  height: 20px;
+  background-image: url('../image/common/ico_download.png');
+  background-repeat: no-repeat;
+
+}
+
+/*// 버튼 hover 했을때 */
+.date_library_content li:hover{
+  background: #666666;
+}
+
+.date_library_content li:hover p{
+  color:#ffffff
+}
+
+.date_library_content li:hover a{
+  color:#ffffff
+}
+
+.date_library_content li:hover a:after{
+  background-image: url('../image/common/ico_download_wt.png');
+  background-repeat: no-repeat;
+}
+
+/* 버튼 hover 했을때 //*/
