@@ -204,6 +204,7 @@ select{
 
 .timetable .timetable_info .info_text h2{
   font-size: 24px;
+  margin-bottom: 30px;
   color:#666666;
 }
 
@@ -226,9 +227,9 @@ select{
 
 .timetable .hover_img img{
   position: absolute;
-  top:-50%;
-  right:5%;
-  width: 50%;
+  top:-45px;
+  right:10%;
+  width: 30%;
   display: none;
   z-index: 20;
 }
