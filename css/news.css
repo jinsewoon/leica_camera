@@ -45,19 +45,21 @@
 
 .article_img .article_img_desc{
   position: absolute;
-  bottom:0;
-  left:0;
+  bottom:50px;
+  left:50px;
 }
 
 .article_img_desc .title{
-  font-size: 42px;
+  font-size: 30px;
   font-weight: 700;
+  text-shadow: 2px 2px #000000;
 }
 
 .article_img_desc .data{
-  font-size: 12px;
-  color:#666666;
+  font-size: 18px;
+  color:#ffffff;
   margin-top: 30px;
+  text-shadow: 2px 2px #000000;
 }
 
 .article_list{
@@ -100,10 +102,12 @@
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 10px;
+  text-shadow: 2px 2px #000000;
 }
 
 .article_list .data{
   font-size: 14px;
+  text-shadow: 2px 2px #000000;
 
 
 }

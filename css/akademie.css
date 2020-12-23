@@ -181,6 +181,7 @@ select{
 
 .timetable ul li a{
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -226,11 +227,11 @@ select{
 }
 
 .timetable .hover_img img{
-  position: absolute;
+  /* position: absolute;
   top:-45px;
-  right:10%;
+  right:10%; */
   width: 30%;
-  display: none;
+  /* display: none; */
   z-index: 20;
 }
 
